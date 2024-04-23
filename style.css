@@ -110,11 +110,11 @@
     color: black;
 }
 
-#main1 .main1-img{
+#main1 .main1-img {
     width: 50%;
 }
 
-#main1 .main1-img img{
+#main1 .main1-img img {
     width: 60%;
     height: 60%;
     border: 4px solid #00F0DD;
@@ -125,6 +125,87 @@
     background-repeat: no-repeat;
 }
 
+/* /////////////////////////////////main2///////////////////////// */
+#main2 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+#main2 .main2-left {
+    width: 50%;
+}
+
+#main2 .main2-left h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#main2 .main2-left h4 {
+    padding-left: 10%;
+    padding-top: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#main2 .main2-left h3 {
+    padding-left: 10%;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00F0DD;
+}
+
+#main2 .main2-left h2 {
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#main2 .main2-right {
+    width: 50%;
+}
+
+#main2 .main2-right h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#main2 .main2-right h4 {
+    padding-left: 10%;
+    padding-top: 15%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#main2 .main2-right h6 {
+    padding-left: 10%;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00F0DD;
+}
+
+#main2 .main2-right p {
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -138,28 +219,33 @@
         width: 100%;
         height: 100%;
     }
-    #main1 .main1-left h4{
+
+    #main1 .main1-left h4 {
         padding-top: 8%;
     }
+
     #main1 .main1-left .main1-icon {
         width: 80%;
-    }    
+    }
+
     #main1 .main1-left .main1-button {
         width: 80%;
         height: 70px;
     }
-    
+
     #main1 .main1-left .main1-button .btn1 {
         width: 45%;
     }
+
     #main1 .main1-left .main1-button .btn2 {
         width: 45%;
     }
-    #main1 .main1-img{
+
+    #main1 .main1-img {
         width: 100%;
     }
-    
-    #main1 .main1-img img{
+
+    #main1 .main1-img img {
         width: 80%;
         height: 70%;
         border: 4px solid #00F0DD;
@@ -168,5 +254,22 @@
         margin-top: 20%;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    /* /////////////////////////////////main2///////////////////////// */
+    #main2{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    #main2 .main2-left {
+        width: 100%;
+    }    
+    #main2 .main2-left h2 {
+        width: 90%;
+    }
+    #main2 .main2-right {
+        width: 100%;
     }
 }
