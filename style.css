@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 35px;
+}
+
+.navbar .navbar-brand span {
+    color: #00F0DD;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #00F0DD;
+}
+
+/* /////////////////////////////////main1///////////////////////// */
+#main1 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+#main1 .main1-left {
+    width: 50%;
+}
+
+#main1 .main1-left h4 {
+    padding-top: 27%;
+    color: white;
+}
+
+#main1 .main1-left h4 span {
+    color: #00F0DD;
+}
+
+#main1 .main1-left p {
+    width: 95%;
+    padding-top: 20px;
+    color: white;
+}
+
+#main1 .main1-left p span {
+    color: #00F0DD;
+}
+
+#main1 .main1-left .main1-icon {
+    width: 50%;
+    height: 60px;
+}
+
+#main1 .main1-left .main1-icon a .fa {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 10px;
+    color: white;
+    border: 2px solid #00F0DD;
+}
+
+#main1 .main1-left .main1-icon a .fa:hover {
+    background-color: #00F0DD;
+    color: black;
+}
+
+#main1 .main1-left .main1-button {
+    width: 50%;
+    height: 70px;
+}
+
+#main1 .main1-left .main1-button .btn1 {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #00F0DD;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main1 .main1-left .main1-button .btn1:hover {
+    background-color: black;
+    border: 2px solid #00F0DD;
+    color: white;
+}
+
+#main1 .main1-left .main1-button .btn2 {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #00F0DD;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main1 .main1-left .main1-button .btn2:hover {
+    background-color: #00F0DD;
+    border: none;
+    color: black;
+}
+
+#main1 .main1-img{
+    width: 50%;
+}
+
+#main1 .main1-img img{
+    width: 60%;
+    height: 60%;
+    border: 4px solid #00F0DD;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    #main1 {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    #main1 .main1-left {
+        width: 100%;
+        height: 100%;
+    }
+    #main1 .main1-left h4{
+        padding-top: 8%;
+    }
+    #main1 .main1-left .main1-icon {
+        width: 80%;
+    }    
+    #main1 .main1-left .main1-button {
+        width: 80%;
+        height: 70px;
+    }
+    
+    #main1 .main1-left .main1-button .btn1 {
+        width: 45%;
+    }
+    #main1 .main1-left .main1-button .btn2 {
+        width: 45%;
+    }
+    #main1 .main1-img{
+        width: 100%;
+    }
+    
+    #main1 .main1-img img{
+        width: 80%;
+        height: 70%;
+        border: 4px solid #00F0DD;
+        border-radius: 50%;
+        margin-left: 10%;
+        margin-top: 20%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
