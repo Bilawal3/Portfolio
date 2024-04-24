@@ -110,11 +110,13 @@
     border: none;
     color: black;
 }
-#main1 .main1-right{
+
+#main1 .main1-right {
     width: 50%;
     height: 100%;
 }
-#main1 .main1-img img{
+
+#main1 .main1-img img {
     width: 50%;
     border: 4px solid #00F0DD;
     margin-left: 25%;
@@ -203,6 +205,158 @@
     color: white;
 }
 
+/* /////////////////////////////////main3///////////////////////// */
+#main3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.s3 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#main3 .main3-left {
+    width: 40%;
+    height: 200px;
+    margin-top: 5%;
+}
+
+#main3 .main3-left h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #00F0DD;
+}
+
+#main3 .main3-left p {
+    width: 95%;
+    padding-left: 20px;
+    color: white;
+}
+
+#main3 .main3-right {
+    width: 40%;
+    height: 200px;
+    margin-top: 5%;
+}
+
+#main3 .main3-right h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #00F0DD;
+}
+
+#main3 .main3-right p {
+    width: 95%;
+    padding-left: 20px;
+    color: white;
+}
+
+/* /////////////////////////////////main4///////////////////////// */
+#main4 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.s4 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#main4 .main4-left {
+    width: 30%;
+    height: 300px;
+    margin-top: 5%;
+    transition: 1s all ease-in-out;
+}
+#main4 .main4-left img {
+    width: 100%;
+    height: 200px;
+}
+
+#main4 .main4-left p {
+    color: #00F0DD;
+    padding-top: 10px;
+}
+
+#main4 .main4-left .main4-icon {
+    position: relative;
+    top: -10px;
+    color: rgb(255, 208, 0);
+}
+
+#main4 .main4-left p a {
+    color: white;
+}
+
+#main4 .main4-center {
+    width: 30%;
+    height: 300px;
+    margin-top: 5%;
+}
+
+#main4 .main4-center img {
+    width: 100%;
+    height: 200px;
+}
+
+#main4 .main4-center p {
+    color: #00F0DD;
+    padding-top: 10px;
+}
+
+#main4 .main4-center .main4-icon {
+    position: relative;
+    top: -10px;
+    color: rgb(255, 208, 0);
+}
+
+#main4 .main4-center p a {
+    color: white;
+}
+
+#main4 .main4-right {
+    width: 30%;
+    height: 300px;
+    margin-top: 5%;
+}
+
+#main4 .main4-right img {
+    width: 100%;
+    height: 200px;
+}
+
+#main4 .main4-right p {
+    color: #00F0DD;
+    padding-top: 10px;
+}
+
+#main4 .main4-right .main4-icon {
+    position: relative;
+    top: -10px;
+    color: rgb(255, 208, 0);
+}
+
+#main4 .main4-right p a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     #main1 {
@@ -237,18 +391,20 @@
         width: 45%;
     }
 
-    #main1 .main1-right{
+    #main1 .main1-right {
         width: 100%;
         height: 100%;
     }
-    #main1 .main1-img img{
+
+    #main1 .main1-img img {
         width: 50%;
         border: 4px solid #00F0DD;
         margin-left: 25%;
         margin-top: 20%;
     }
+
     /* /////////////////////////////////main2///////////////////////// */
-    #main2{
+    #main2 {
         width: 100%;
         height: 100%;
         flex-wrap: wrap;
@@ -256,38 +412,99 @@
 
     #main2 .main2-left {
         width: 100%;
-    }    
+    }
+
     #main2 .main2-left h2 {
         width: 90%;
         font-size: 20px;
     }
+
     #main2 .main2-left h1 {
         font-size: 40px;
     }
-    
+
     #main2 .main2-left h4 {
         font-size: 25px;
     }
-    
+
     #main2 .main2-left h3 {
         font-size: 25px;
     }
+
     #main2 .main2-right {
         width: 100%;
     }
+
     #main2 .main2-right h1 {
         font-size: 40px;
     }
-    
+
     #main2 .main2-right h4 {
         font-size: 25px;
     }
-    
+
     #main2 .main2-right h6 {
         font-size: 15px;
     }
-    
+
     #main2 .main2-right p {
         font-size: 17px;
+    }
+
+    /* /////////////////////////////////main3///////////////////////// */
+    #main3 {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .s3 h1 {
+        font-size: 45px;
+        padding-top: 20px;
+    }
+
+    #main3 .main3-left {
+        width: 90%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    #main3 .main3-right {
+        width: 90%;
+        height: 100%;
+    }
+
+    /* /////////////////////////////////main4///////////////////////// */
+    #main4 {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .s4 h1 {
+        font-size: 45px;
+        padding-top: 20px;
+    }
+
+    #main4 .main4-left {
+        width: 90%;
+        height: 40%;
+    }
+    #main4 .main4-left img {
+        height: 30%;
+    }
+    #main4 .main4-center {
+        width: 90%;
+        height: 40%;
+    }
+    #main4 .main4-center img {
+        height: 30%;
+    }
+    #main4 .main4-right {
+        width: 90%;
+        height: 40%;
+    }
+    #main4 .main4-right img {
+        height: 30%;
     }
 }
